@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/infos">
+
+        <EditTextPreference
+            app:key="pseudo"
+            app:title="@string/pseudo"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+<!--    <PreferenceCategory app:title="@string/stats">-->
+
+
+
+<!--    </PreferenceCategory>-->
+
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Application_TO_DO_List</string>
+    <string name="title_activity_settings">Préférences</string>
+
+    <!-- Preference Titles -->
+    <string name="infos">Paramètres du compte</string>
+
+    <!-- Messages Preferences -->
+    <string name="pseudo">Pseudo : </string>
+
+</resources>

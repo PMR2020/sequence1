@@ -1,0 +1,2 @@
+rootProject.name='Application_TO_DO_List'
+include ':app'
