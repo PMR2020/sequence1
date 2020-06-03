@@ -16,19 +16,19 @@ Le but de ce TP est de créer un début d'application de to-do-list. Elle est co
 
 * L'écran principal qui permet de saisir un pseudo :
 
-<img src="images/mainActivity.png" alt="mainActivity" style="zoom: 15%;" />
+<img src="images/mainActivity.png" alt="mainActivity" width="270" height="555" />
 
 * L'écran présentant la liste des to-do-list de l'utilisateur identifié par son pseudo :
 
-<img src="images/choixListActivity.png" alt="choixListActivity" style="zoom: 15%;" />
+<img src="images/choixListActivity.png" alt="choixListActivity" width="270" height="555" />
 
 * L'écran présentant les items d'une liste de l'utilisateur :
 
-<img src="images/showListActivity.png" alt="showListActivity" style="zoom: 15%;" />
+<img src="images/showListActivity.png" alt="showListActivity" width="270" height="555" />
 
 * L'écran de paramètres permettant de modifier le pseudo actuel et de supprimer toutes les listes enregistrées :
 
-<img src="images/settingsActivity.png" alt="settingsActivity" style="zoom: 15%;" />
+<img src="images/settingsActivity.png" alt="settingsActivity" width="270" height="555" />
 
 
 
