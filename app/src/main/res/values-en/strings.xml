@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TP1</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="ok">OK</string>
+    <string name="newList">New List</string>
+    <string name="newItem">New Item</string>
+    <string name="preferences">Preferences</string>
+    <string name="removePseudo">Delete all saved profiles</string>
+    <string name="listAlreadyExist">This list already exists.</string>
+    <string name="itemAlreadyExist">This item already exists.</string>
+    <string name="pseudoDeleted">All saved profiles have been deleted.</string>
+</resources>
