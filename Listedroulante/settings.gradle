@@ -1,0 +1,2 @@
+rootProject.name='Liste déroulante'
+include ':app'

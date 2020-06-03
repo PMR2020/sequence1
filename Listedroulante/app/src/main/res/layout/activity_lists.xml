@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/taskListName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:autofillHints="@string/activity_Choice"
+            android:hint="@string/listName"
+            android:inputType="text"
+            android:onClick="fooText2"
+            android:textSize="25sp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/taskListDescr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:autofillHints="@string/activity_Choice"
+            android:hint="@string/listDescr"
+            android:inputType="text"
+            android:onClick="fooText3"
+            android:textSize="25sp">
+        </EditText>
+
+        <Button
+            android:id="@+id/createList"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/Create"
+            android:textSize="25sp">
+        </Button>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_listTask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/list_item"
+        />
+</LinearLayout>

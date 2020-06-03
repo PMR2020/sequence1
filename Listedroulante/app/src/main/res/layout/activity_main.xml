@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+    </LinearLayout>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="30dp"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="@android:string/ok">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/Main_activity"
+            android:textSize="30sp">
+        </TextView>
+
+        <EditText
+            android:onClick="fooText"
+            android:id="@+id/entree_pseudo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="175dp"
+            android:layout_marginStart="50dp"
+            android:hint="@string/type_pseudo"
+            android:inputType="text"
+            android:autofillHints="@string/Main_activity"
+            android:textSize="25sp">
+        </EditText>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textScaleX="1"
+            android:id="@+id/Create"
+            android:layout_marginStart="175dp"
+            android:layout_marginVertical="250dp"
+            android:text="@string/Create"
+            android:textSize="25sp">
+        </Button>
+
+</FrameLayout>

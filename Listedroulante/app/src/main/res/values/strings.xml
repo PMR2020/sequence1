@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="Main_activity">Main activity</string>
+    <string name="activity_Choice">Chose a List activity</string>
+    <string name="type_pseudo">Please type your pseudo</string>
+    <string name="Create">Create</string>
+    <string name="Nom_Liste">Nom de la liste</string>
+    <string name="Description_Liste">Description de la liste</string>
+    <string name="pr_f_rences">Préférences</string>
+    <string name="listName">List name</string>
+    <string name="listDescr">List description</string>
+    <string name="activity_Tasks" />
+    <string name="task">Task</string>
+</resources>
