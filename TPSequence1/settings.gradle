@@ -1,0 +1,2 @@
+rootProject.name='TPSequence1'
+include ':app'

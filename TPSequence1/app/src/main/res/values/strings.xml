@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TP1</string>
+
+    <string name="pseudo">Pseudo</string>
+    <string name="entrerPseudo">Entrer votre pseudo</string>
+    <string name="cliquerPourLeModifier">Cliquer dessus pour le modifier</string>
+
+    <string name="pseudoSharedPreferences">pseudoSharedPreferences</string>
+    <string name="serializedJsonSharedPreferences">serializedJsonSharedPreferences</string>
+
+    <string name="preferences">Preferences</string>
+    <string name="deleteAll">Effacer tout</string>
+
+    <string name="ok">OK</string>
+    <string name="nouvelleListe">Nouvelle Liste</string>
+    <string name="nouvelItem">Nouvel Item</string>
+    <string name="listes">Listes</string>
+
+    <string name="cancel">Annuler</string>
+    <string name="modifier">Modifier</string>
+    <string name="supprimer">Supprimer</string>
+
+    <string name="enterNewItem">Entrer un nom d\'item :</string>
+    <string name="enterNameofTodoList">Entrer un nom de Todo List :</string>
+    <string name="modifierOuSupprimerListeToDo">Modifier le nom de la Todo List ou supprimer la Todo List ?</string>
+    <string name="modifierOuSupprimerItemToDo">Modifier le nom de l\'item ou supprimer l\'item</string>
+    <string name="continuerOuAnnuler">Continuer à supprimer l\'item même s\'il n\'a pas été réalisé ?</string>
+    <string name="continuer">Continuer</string>
+
+
+</resources>
