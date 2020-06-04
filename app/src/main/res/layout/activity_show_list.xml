@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowList">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/showView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textAlignment="inherit"
+        app:layout_constraintBottom_toTopOf="@+id/NewItemInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/item" />
+
+    <EditText
+        android:id="@+id/NewItemInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/TxtNewItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonShowList"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/buttonShowList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonShowList"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/NewItemInput" />
+</androidx.constraintlayout.widget.ConstraintLayout>

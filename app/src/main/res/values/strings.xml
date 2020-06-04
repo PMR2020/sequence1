@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TP_Boukadir_V2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pseudo">pseudo</string>
+    <string name="removePseudo">Supprimer pseudo</string>
+    <string name="preferences">Preferences</string>
+    <string name="BtnChoixList">Button</string>
+    <string name="TxtNewList">Name</string>
+    <string name="TxtNewItem">Name</string>
+    <string name="buttonShowList">Button</string>
+    <string name="item_title">titre</string>
+    <string name="cb_item">Fait ?</string>
+
+</resources>
